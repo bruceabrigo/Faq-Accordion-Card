@@ -1,0 +1,72 @@
+html {
+    min-height: 100%;
+}
+body {
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    border: 1px;
+    border-radius: 15px;
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.left {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.right {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 25px;
+}
+.collapsible {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.faq-details {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+hr {
+    border: 1px solid hsl(240, 5%, 91%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+}
